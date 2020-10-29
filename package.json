@@ -1,0 +1,43 @@
+{
+  "name": "rapid-response-toolkit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "install": "bundle install",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFRCGo/rapid-response-toolkit.git"
+  },
+  "author": "danbjoseph",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/IFRCGo/rapid-response-toolkit/issues"
+  },
+  "homepage": "https://github.com/IFRCGo/rapid-response-toolkit#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.13",
+    "d3": "^3.5.17",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.5.1",
+    "lg-hash": "^1.0.4",
+    "lg-thumbnail": "^1.2.1",
+    "lightgallery": "^1.9.0",
+    "popper.js": "^1.16.1",
+    "request": "^2.88.2",
+    "run-sequence": "^2.2.1"
+  }
+}

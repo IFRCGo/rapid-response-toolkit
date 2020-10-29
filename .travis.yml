@@ -1,0 +1,23 @@
+language: ruby
+# if the ruby version is not specified by the rvm key
+# Travis CI uses the .ruby-version file in the root of the repository
+env:
+  global:
+  - TRAVIS_NODE_VERSION="v14.15.0"
+  - GH_REF=github.com/IFRCGo/rapid-response-toolkit.git
+  - DEPLOY_BRANCH=publish
+before_script:
+- ". $HOME/.nvm/nvm.sh"
+- nvm install $TRAVIS_NODE_VERSION
+- nvm use $TRAVIS_NODE_VERSION
+- npm install -g gulp
+- npm install
+script: gulp prod
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GH_TOKEN"
+  keep-history: false
+  on:
+    branch: publish
+  local_dir: _site

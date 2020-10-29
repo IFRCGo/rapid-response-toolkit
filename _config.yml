@@ -1,0 +1,14 @@
+source:       app
+baseurl:      "/rapid-response-toolkit" 
+
+markdown:   kramdown
+permalink:  pretty
+exclude:
+  - assets/styles
+  - README.md
+  
+default_locale:     "en"
+languages: ["en", "es"]
+language_names:
+  en: "English"
+  es: "Español"

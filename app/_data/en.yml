@@ -1,0 +1,19 @@
+############
+## COMMON ##
+############
+
+meta:
+  title: "Rapid Response Toolkit"
+  description: "We strive to ensure that a well-functioning, relevant global disaster management system is in place to address the needs of vulnerable people affected by disasters and crises."
+
+###########
+## ABOUT ##
+###########
+
+about:
+  title: "Rapid Response Toolkit"
+  subtitle: "work in progress"
+  description:  
+    - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan, purus venenatis lacinia tempus, eros elit pulvinar ligula, eget feugiat libero metus ut lacus. Vivamus imperdiet mi ultricies mauris facilisis iaculis. In tristique nisl sed placerat mattis. Etiam at est a ex venenatis scelerisque eu nec metus. Aenean ultrices faucibus erat, sed porttitor erat malesuada ac."
+    - "Donec sit amet nunc viverra, porta justo non, sagittis erat. Maecenas ut diam in tellus tincidunt hendrerit eu in leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam id ligula vel turpis volutpat aliquam. Aenean tristique vitae est eget rhoncus."
+
