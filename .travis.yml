@@ -5,7 +5,6 @@ env:
   global:
   - TRAVIS_NODE_VERSION="v14.15.0"
   - GH_REF=github.com/IFRCGo/rapid-response-toolkit.git
-  - DEPLOY_BRANCH=main
   matrix:
     secure: DSqBJkR7Rdv3Ghu+jZQEcpN9UUMSXvOwyOmcb8lce5wR7rvkFTExX226DdndvJkNLezZFwtvR86r4dTWSJU1x6JuKyYGM7jjg9bEGW5183/pvsUR9HiC5oSWN16coSua/QsbzSUIvLWijWQyQSQPoBi7SEGbzpsR7gKeMpFpSwLdQLBiK630L+VsHP1nKVr8n5r/6qTYO484ByEoVR/ZiM2tZKTIymkWjvgBJYoANqhPSX4FBabW3OC5C+wFNLyo/IeilrDRahlIoU2LNMf+nZftNL60L9fqrtisT50eCoM0Rw7KXUKmUCyo8dTnEN2yyi0x4tD8dedaKhkeaYUgkOjzmqwb0yufU4opodcAXSe8KNuJM9ZeaTgRN8Jb1RtCIw3YEf71neEmxxkgt7iwl2I1PpFGOjqz7pCLC0Slv6rsAbOC/7RERAJ2N1oqajQngOpvPDZXgZSnu0PB/LcV0OUQGK0NxKQ9K8SEj/GwlsOC7RP40TS3URJPKijmZ/vB4w+FfW3UAIbrT9VlaQIdl4mJE1R2cLhv4wvmvOpPkBcJeUzr9zFK/dce0LvPxF2oad93XM5R0yc5sWdF1i/nasJcLa+1rMxrEeexr0wEvycS8OPYbZc/h7XdQzuHoQpGGmZstK+D+27l1oguchSyFdfyW1TD77EydLftkCun7yA=
 before_script:
@@ -21,5 +20,5 @@ deploy:
   github-token: "$GH_TOKEN"
   keep-history: false
   on:
-    branch: publish
+    branch: main
   local_dir: _site
